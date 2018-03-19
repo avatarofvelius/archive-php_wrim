@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #181818;
+    font: 1em/1.5 Palatino, "Book Antiqua", Georgia, serif;
+    color: #eee;
+}
+
+a {
+    color: #aaa;
+    margin: 0px 10px;
+}
+
+a:hover {
+    color: #eee;
+}
+
+p {
+    margin: 0;
+    padding: 10px 0px;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;    
+}

@@ -1,6 +1,6 @@
 <?php
     $page = 'Index';
-    $page_css = '../_css/index.css';
+    $page_css = '../_css/main-index.css';
     $page_icon = '../../_resources/logo/favicon.png';
     $description = 'Landing page for various works by Matt T Myers.';    
 ?>
