@@ -26,3 +26,12 @@ main {
     margin: 0 auto;
     text-align: center;    
 }
+
+footer {
+    width: 100%;
+    background-color: #232323;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+}
