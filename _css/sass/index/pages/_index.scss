@@ -1,0 +1,46 @@
+.container {
+    background-color: #232323;
+    height: 100%;
+    widows: 100%;
+    margin: 0px;
+    border-bottom: 2px solid #191919;
+}
+
+.well_book {
+    height: 200px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    border-top: 2px solid #191919;
+}
+
+.well_book_image {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.well_book_content {   
+    flex: 4;
+    padding: 20px;
+}
+
+.well_book_url {
+    margin: 10px 50px;
+}
+
+#cycle-pager {
+    text-align: center;
+    height:110px;
+    position: absolute;
+    margin-top: -120px;
+    padding-top: 10px;
+    width: 100%;
+    background: rgba(0,0,0,.50);
+    z-index: 1000;
+    opacity: 0;
+}
+
+#cycle-pager:hover {
+    opacity: 1;
+}

@@ -1,28 +1,135 @@
+.container {
+  background-color: #232323;
+  height: 100%;
+  widows: 100%;
+  margin: 0px;
+  border-bottom: 2px solid #191919; }
+
+.well_book {
+  height: 200px;
+  width: 100%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 2px solid #191919; }
+
+.well_book_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+.well_book_content {
+  -webkit-box-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  padding: 20px; }
+
+.well_book_url {
+  margin: 10px 50px; }
+
+#cycle-pager {
+  text-align: center;
+  height: 110px;
+  position: absolute;
+  margin-top: -120px;
+  padding-top: 10px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  opacity: 0; }
+
+#cycle-pager:hover {
+  opacity: 1; }
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0; }
+
+h3 {
+  font: 1.5em/1.5 Verdana, Geneva, sans-serif; }
+
+/* Base */
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #181818;
-    font: 1em/1.5 Palatino, "Book Antiqua", Georgia, serif;
-    color: #eee;
-}
+  background-color: #222;
+  width: 100%;
+  font: 1em/1.5 Palatino, "Book Antiqua", Georgia, serif;
+  color: #eee; }
 
 a {
-    color: #aaa;
-    margin: 0px 10px;
-}
-
-a:hover {
-    color: #eee;
-}
+  color: #aaa;
+  margin: 0px 10px;
+  text-decoration: none; }
 
 p {
-    margin: 0;
-    padding: 10px 0px;
-}
+  margin: 0;
+  padding: 10px 0px; }
 
+/* Layout */
 main {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+
+header {
+  background-color: #232323;
+  border-bottom: 1px solid #191919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px; }
+
+nav {
+  width: 50%;
+  margin-left: 25px; }
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: -1px; }
+
+footer {
+  width: 100%;
+  background-color: #191919;
+  text-align: center;
+  margin: 0 auto; }
+
+/* State */
+a:hover {
+  color: #fff; }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap; }
+  .well_book {
     width: 100%;
-    margin: 0 auto;
-    text-align: center;    
-}
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+  .cycle-slideshow {
+    width: 1200px;
+    margin: 0px auto; } }
